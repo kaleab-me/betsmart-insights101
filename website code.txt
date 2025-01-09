@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BetSmart Insights</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #007BFF;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .cta-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>BetSmart Insights</h1>
+        <p>Your Ultimate Sports Betting Companion</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#join">Join Now</a>
+    </nav>
+
+    <div class="container" id="about">
+        <h2>About Us</h2>
+        <p>Welcome to BetSmart Insights, the premier platform for sports enthusiasts looking to make informed betting decisions. We provide daily tips, in-depth analysis, and expert strategies to help you succeed.</p>
+    </div>
+
+    <div class="container" id="features">
+        <h2>Features</h2>
+        <ul>
+            <li>Daily Betting Tips and Predictions</li>
+            <li>Comprehensive Educational Resources</li>
+            <li>Advanced Analytics and Tools</li>
+            <li>Exclusive Access to a Community of Bettors</li>
+        </ul>
+    </div>
+
+    <div class="container" id="pricing">
+        <h2>Pricing</h2>
+        <p>Subscribe for only <strong>$25/month</strong> and gain access to all our premium content and tools. Join today and elevate your betting game!</p>
+        <a href="#join" class="cta-button">Join Now</a>
+    </div>
+
+    <div class="container" id="join">
+        <h2>Join Us</h2>
+        <p>Ready to take your sports betting to the next level? Sign up now and get instant access to our exclusive tips and tools.</p>
+        <form action="#" method="POST">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <button type="submit" class="cta-button">Sign Up</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 BetSmart Insights. All rights reserved.</p>
+    </footer>
+</body>
+</html>
